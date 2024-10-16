@@ -18,15 +18,21 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-radius: 5px;
+    text-align: center;
 }
 
 nav ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+ul {
     list-style: none;
     width: 100%;
     display: inline;
-    padding-right: 10px;
-    padding-left: 10px;
-    
+    padding-right: 75px;
 }
 
 .icon {
@@ -37,13 +43,14 @@ nav ul li {
 }
 
 .title {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     margin-left: 10px;
-    border-radius: 70px;
+    border-radius: 65px;
 }
 
 .scrolling-base {
     overflow-y: auto;
     max-height: 100%;
+    text-align: center;
 }
